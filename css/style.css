@@ -49,12 +49,7 @@ header{
     color: #8A8A8A;
 }
 
-.col div{
-    border: 1px transparent black;
-    border-radius: 10px;
-    height: 300px;
-    width: 100%;
-}
+
 .img-1{
     background-image: url(../img/img-1.jpg);
 }
@@ -70,8 +65,18 @@ header{
     border: 1px transparent black;
     border-radius: 10px;
 }
+.col div{
+    border: 1px transparent black;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+}
 .col p{
     color: #8A8A8A;
+    margin-top: 20px;
+}
+.col h3{
+    margin-top: 20px;
 }
 .clearfix::after{
     content: "";
