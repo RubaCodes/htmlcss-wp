@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Common */
@@ -14,10 +15,10 @@
 header{
     min-height: 200px;
     background-color: #e579e6;
-    margin: 30px 0;
 }
 
 .placeholder-img{
+    margin-top: 30px;
     min-height: 600px;
     background-color: #e1d67a;
 }
@@ -56,4 +57,17 @@ footer{
     background-color: #8801fe;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+/* barra di navigazione */
+li{
+    display: inline-block;
+    margin-right: 5px;
+}
+li a{
+    text-decoration: none;
+}
+
+.logo{
+    margin-bottom: 20px;
+    height: 50px;
 }
