@@ -70,7 +70,7 @@ header{
     border: 1px transparent black;
     border-radius: 10px;
 }
-col p{
+.col p{
     color: #8A8A8A;
 }
 .clearfix::after{
@@ -94,7 +94,6 @@ col p{
 
 footer{
     min-height: 75px;
-    background-color: #8801fe;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -113,4 +112,12 @@ li a{
 .logo{
     margin-bottom: 40px;
     height: 100px;
+}
+
+footer h3{
+    text-align: center;
+}
+footer h3::after{
+    content: '\2665';
+    color: red;
 }
