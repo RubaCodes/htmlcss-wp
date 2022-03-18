@@ -34,12 +34,18 @@ header{
 }
 .hero-bold-text{
     font-size:30px;
-    
 }
 .header-float{
     min-height: 100px;
-    background-color: #abcfe7;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+.header-float h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.header-float p{
+    font-weight: bolder;
+    color: #8A8A8A;
 }
 
 .wrapper-float{
