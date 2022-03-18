@@ -1,0 +1,59 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+.wrapper{
+    max-width: 1280px;
+    margin: auto;
+}
+
+header{
+    min-height: 200px;
+    background-color: #e579e6;
+    margin: 30px 0;
+}
+
+.placeholder-img{
+    min-height: 600px;
+    background-color: #e1d67a;
+}
+.header-float{
+    min-height: 100px;
+    background-color: #abcfe7;
+    margin-top: 30px;
+}
+
+.wrapper-float{
+    background-color: #0086ff;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left-col,.right-col{
+    float: left;
+    width: 20%;
+    min-height: 700px;
+    margin: 20px 0;
+    background-color: #abcfe7;
+}
+
+.mid-col{
+    float: left;
+    width: calc(60% - 40px);
+    min-height: 700px;
+    margin: 20px 20px;
+    background-color: #abcfe7;  
+}
+
+footer{
+    min-height: 75px;
+    background-color: #8801fe;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
