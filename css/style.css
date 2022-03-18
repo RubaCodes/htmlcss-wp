@@ -54,7 +54,6 @@ header{
     border-radius: 10px;
     height: 300px;
     width: 100%;
-    transform: scale(none);
 }
 .img-1{
     background-image: url(../img/img-1.jpg);
