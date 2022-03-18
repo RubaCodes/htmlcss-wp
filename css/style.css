@@ -14,13 +14,27 @@
 
 header{
     min-height: 150px;
-    border: 1px solid red;
 }
 
-.placeholder-img{
-    margin-top: 30px;
+.hero{
+    margin-top: 40px;
     min-height: 600px;
-    background-color: #e1d67a;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 1px transparent black;
+    border-radius: 10px;
+    padding-top:400px;
+    padding-left: 40px;
+}
+.hero-text, .hero-bold-text{
+    color: white;
+    max-width: 50%;
+    font-weight: 600;
+}
+.hero-bold-text{
+    font-size:30px;
+    
 }
 .header-float{
     min-height: 100px;
