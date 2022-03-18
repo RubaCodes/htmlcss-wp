@@ -12,10 +12,31 @@
     margin: auto;
 }
 
+/* header setion */
 header{
     min-height: 150px;
 }
+/* /header setion */
 
+/* barra di navigazione */
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8A8A8A;
+    font-size: large;
+}
+
+.logo{
+    margin-bottom: 40px;
+    height: 100px;
+}
+/* /barra di navigazione */
+
+/* hero section  */
 .hero{
     margin-top: 40px;
     min-height: 600px;
@@ -35,21 +56,29 @@ header{
 .hero-bold-text{
     font-size:30px;
 }
+/* /hero section */
+
 /* header float section */
 .header-float{
     min-height: 100px;
     margin-top: 50px;
+    font-weight: bolder;
 }
 .header-float h1{
     font-size: 40px;
-    font-weight: bolder;
 }
 .header-float p{
-    font-weight: bolder;
     color: #8A8A8A;
 }
+/* /header float section */
 
-
+/* floating section */
+.img-1,.img-2,.img-3{
+    background-size: cover;
+    background-position: center;
+    border: 1px transparent black;
+    border-radius: 10px;
+}
 .img-1{
     background-image: url(../img/img-1.jpg);
 }
@@ -59,12 +88,7 @@ header{
 .img-3{
     background-image: url(../img/img-3.jpg);
 }
-.img-1,.img-2,.img-3{
-    background-size: cover;
-    background-position: center;
-    border: 1px transparent black;
-    border-radius: 10px;
-}
+
 .col div{
     border: 1px transparent black;
     border-radius: 10px;
@@ -97,28 +121,13 @@ header{
     margin: 20px 20px; 
 }
 
+
+
+/* footer section */
 footer{
-    min-height: 75px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-/* barra di navigazione */
-li{
-    display: inline-block;
-    margin-right: 8px;
-}
-li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #8A8A8A;
-    font-size: large;
-}
-
-.logo{
-    margin-bottom: 40px;
-    height: 100px;
-}
-
 footer h3{
     text-align: center;
 }
@@ -126,3 +135,4 @@ footer h3::after{
     content: '\2665';
     color: red;
 }
+/* /footer section */
